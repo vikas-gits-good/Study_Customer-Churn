@@ -6,8 +6,8 @@ import pickle
 from tensorflow.keras.models import load_model
 
 
-model = load_model("model_rg.keras")
-with open("ppln_rg.pkl", "rb") as file:
+model = load_model("rg_model.keras")
+with open("rg_ppln.pkl", "rb") as file:
     ppln_prpc = pickle.load(file)
 
 catg_geography = ["Germany", "Spain", "France"]

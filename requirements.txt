@@ -8,3 +8,5 @@ streamlit
 scikeras
 ipykernel
 streamlit
+keras
+scikeras
